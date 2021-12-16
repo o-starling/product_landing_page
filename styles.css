@@ -1,0 +1,90 @@
+img {
+	height: 50px
+}
+.flex {
+	display: flex;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   font-family: Cursive;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,219,21,1) 35%, rgba(255,107,0,1) 100%);
+}
+header div {
+   display: flex;
+}
+.nav-link {
+	text-decoration: none;
+	color: black;
+	margin: 50px;
+	line-height: 50px;
+}
+.nav-link:hover {
+	text-decoration: underline;
+	color: white;
+	margin: 50px;
+	line-height: 50px;
+}
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 90px;
+}
+.flexbox-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.flexbox-item {
+	width: 200px;
+	margin: 10px;
+	border: 1px solid #382713;
+	background-color: #e5f084; 
+	font-family: cursive;
+	height: 150px;
+}
+.form {
+	border-radius: 2px;
+	width: 70%;
+	height: 25px;
+	font-size: 12px;
+	margin-left: 95px;
+}
+.submit {
+	border-radius: 2px;
+	width: 71%;
+	height: 25px;
+	font-size: 13px;
+	font-family: Cursive;
+	margin-left: 95px;
+	background-color: #fc7a17;
+}
+.features {
+	padding: 60px;
+}
+.text {
+	padding-left: 5px;
+	margin-top: 0;
+	width: 45%;
+	line-height: 50px;
+}
+h2 {
+	text-align: center;
+	font-family: "Lucida Handwriting", cursive;
+}
+p {
+	width: 75%;
+}
+.heading {
+	text-align: center;
+	font-family: "Lucida Handwriting", cursive;
+}
+@media only screen and (max-width: 600px) {
+	header {
+		flex-direction: column;
+	}
+}
